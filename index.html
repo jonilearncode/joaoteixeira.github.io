@@ -1,41 +1,77 @@
 <html>
 <head>
-    <h1>
+    <style>
+    .borderCards {
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 5px 10px 5px 10px;
+        border-color: rosybrown;
+        box-shadow: 0 10px 20px rgba(100,100,100,0.2), 0 5px 10px rgba(100,100,100,0.7);
+        padding: 10px;
+        background-color: lightgoldenrodyellow;
+        z-index: 10;        
+    }        
+    
+    h2 {
+        color:darkblue;
+        
+    }
+    body {
+        padding: auto;
+        background-color:ghostwhite;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        text-align: justify;
+    }
+    
+    #main {
+        padding-left: 1em;
+    }
+    footer {
+       font-size: 10px; 
+    }
+    </style>
+    <h1 class="borderCards">
         <b>Personal Website project.</b>
     </h1>
 </head>
 
 <body>
-    <h2>Phase 1</h2>
-        <h3>Rough sketch</h2>
+    <div id="main">
+        <h2>Phase 1</h2>
+        <hr style="box-shadow: 0 1px 3px rgba(100,100,100,0.7)">
+            <h3>Rough sketch</h3>
+                <ul>
+                    <li>Get skeleton done with html</li>
+                    <li>Shape it with css</li>
+                </ul>
+
+        <h2>Phase 2</h2>
+        <hr style="box-shadow: 0 1px 3px rgba(100,100,100,0.7)">
+            <h3>Rough sketch</h3>
             <ul>
-                <p>Get skeleton done with html</p>
-                <p>Shape it with css</p>
+                <li>Muscle it with js</li>
+
+                <li>Create specific repos:</li>
+                    <ol>
+                        <li>Portefolio</li>
+                        <li>Photography</li>
+                        <li>Projects</li>
+                    </ol>
             </ul>
 
-    <h2>Phase 2</h2>
-        <h3>Rough sketch</h3>
-        <ul>
-            <p>Muscle it with js</p>
-            
-            <p>Create specific repos:</p>
-                <ol>
-                    <p>Portefolio</p>
-                    <p>Photography</p>
-                    <p>Projects</p>
-                </ol>
-        </ul>
-    
-    <h2>Phase 3</h2>
-        <h3>Tune and polish</h3>
-        <ul>
-            <p>Polish design and css</p>
-            <p>Smooth js navigation trough the repos and main page</p>
-            <p>Implement and Wire it with chatbot navigator</p>
-        </ul>
+        <h2>Phase 3</h2>
+        <hr style="box-shadow: 0 1px 3px rgba(100,100,100,0.7)">
+            <h3>Tune and polish</h3>
+            <ul>
+                <li>Polish design and css</li>
+                <li>Smooth js navigation trough the repos and main page</li>
+                <li>Implement and Wire it with chatbot navigator</li>
+            </ul>
+        </div>
 </body>
-
-<footer>Author: jonilearncode 2019</footer>
+<hr style="box-shadow: 0 1px 3px rgba(0,0,0,0.8)">
+<footer class="borderCards">Author: jonilearncode 2019</footer>
 
 
 </html>
