@@ -1,0 +1,205 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  border-style: dotted hidden hidden hidden;
+  border-width: 5px;
+  color: #d6e4f0;
+  width: 5%;
+}
+
+h2 {
+  font-size: 2em;
+  color: #355c7d;
+}
+
+h3 {
+  color: #355c7d;
+}
+
+a {
+  color: #1d3952;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #d6e6f2;
+  color: #355c7d;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  margin: 0;
+  padding-top: 90px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #f7fbfc;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.bottom-container {
+  background-color: #769fcd;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.footer-link {
+  margin: auto 10px auto 10px;
+}
+
+.main-title {
+  margin: 0;
+}
+
+.second-title {
+  margin: 0;
+}
+
+.intro {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.contact-me-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
+.contact-me-description {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.contact-me {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  line-height: 2;
+  margin: 100px auto 20px;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  width: 60%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
+}
+
+.icons-attributions {
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  padding: 20px 0 20px 0;
+  text-align: left;
+  width: 60%;
+}
+
+.planet-img {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 7%;
+}
+
+.rocket-img {
+  width: 20%;
+  padding-bottom: 60px;
+}
+
+.astronaut-img {
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  width: 7%;
+}
+
+.profile-pic {
+  padding-top: 30px;
+  width: 15%;
+}
+
+.idea-img {
+  border-radius: 20%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.code-img {
+  border-radius: 20%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.game-dev-img {
+  border-radius: 20%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.BUTTON_WRH {
+  background: #769FCD;
+  background-image: -webkit-linear-gradient(top, #769FCD, #355C7D);
+  background-image: -moz-linear-gradient(top, #769FCD, #355C7D);
+  background-image: -ms-linear-gradient(top, #769FCD, #355C7D);
+  background-image: -o-linear-gradient(top, #769FCD, #355C7D);
+  background-image: -webkit-gradient(to bottom, #769FCD, #355C7D);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 23px;
+  -webkit-box-shadow: 0 1px 5px 1px #000000;
+  -moz-box-shadow: 0 1px 5px 1px #000000;
+  box-shadow: 0 1px 5px 1px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_WRH:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 9px;
+  text-decoration: none;
+}
