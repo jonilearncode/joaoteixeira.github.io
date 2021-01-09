@@ -1,4 +1,4 @@
-# joaoteixeira.github.io
+# jonilearncode.github.io
 
 This project intends to build my first website with html and css.
 
